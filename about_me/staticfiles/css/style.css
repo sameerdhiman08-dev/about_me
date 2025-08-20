@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(rgba(55, 31, 16, 0.397), rgba(75, 66, 66, 0.6)),
+                url(https://source.unsplash.com/1600x900/?technology,office) center/cover no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(55, 31, 16, 0.397), rgba(75, 66, 66, 0.6)),
+                url(https://source.unsplash.com/1600x900/?technology,office) center/cover no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.progress-bar {
+    transition: width 1.5s ease-in-out;
+}
